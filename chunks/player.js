@@ -107,7 +107,7 @@ var Player = function Player(_ref) {
   }, isPlayerOnly && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("button", {
     onClick: onSeeInside
   }, 'See inside'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_containers_gui_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    canCreateNew: true,
+    canCreateNew: false,
     canCreateCopy: true,
     isCreating: false,
     loading: false,
@@ -117,7 +117,6 @@ var Player = function Player(_ref) {
     canChangeLanguage: false,
     canManageFiles: true,
     canUseCloud: true,
-    isShared:false,
     canShare: true,
     canEditTitle: true,
     enableCommunity: true,
