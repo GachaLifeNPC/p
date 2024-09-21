@@ -117,12 +117,13 @@ var Player = function Player(_ref) {
     canChangeLanguage: false,
     canManageFiles: true,
     canUseCloud: true,
-    isShared: onShare,
     canShare: true,
     canEditTitle: true,
     enableCommunity: true,
     isPlayerOnly: isPlayerOnly,
-    projectId: projectId
+    projectId: projectId,
+    setTimeout(() => console.log("666"), 1000)),
+    isShared: true
   }));
 };
 
