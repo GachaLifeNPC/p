@@ -117,7 +117,7 @@ var Player = function Player(_ref) {
     canChangeLanguage: false,
     canManageFiles: true,
     canUseCloud: true,
-    isShared: true,
+    isShared: onShare,
     canShare: true,
     canEditTitle: true,
     enableCommunity: true,
