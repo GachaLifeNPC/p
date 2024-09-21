@@ -107,23 +107,22 @@ var Player = function Player(_ref) {
   }, isPlayerOnly && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("button", {
     onClick: onSeeInside
   }, 'See inside'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_containers_gui_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    canCreateNew: false,
-    canCreateCopy: false,
+    canCreateNew: true,
+    canCreateCopy: true,
     isCreating: false,
     loading: false,
-    backpackVisible: false,
+    backpackVisible: true,
     canSave: false,
     canRemix: false,
     canChangeLanguage: false,
     canManageFiles: true,
     canUseCloud: true,
+    isShared:false,
     canShare: true,
     canEditTitle: true,
     enableCommunity: true,
     isPlayerOnly: isPlayerOnly,
-    projectId: projectId,
-    setTimeout(() => console.log("666"), 1000)),
-    isShared: true
+    projectId: projectId
   }));
 };
 
