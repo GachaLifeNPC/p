@@ -153,7 +153,8 @@ var WrappedPlayer = Object(redux__WEBPACK_IMPORTED_MODULE_5__["compose"])(_lib_a
 var appTarget = document.createElement('div');
 document.body.appendChild(appTarget);
 react_dom__WEBPACK_IMPORTED_MODULE_3___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(WrappedPlayer, {
-  isPlayerOnly: true
+  isPlayerOnly: true,
+  isShared: true
 }), appTarget);
 
 /***/ })
