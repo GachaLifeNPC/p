@@ -1,4 +1,6 @@
-const query = params.get('isShared');
+const url1 = new URL(window.location.href);
+const params1 = new URLSearchParams(url.search);
+const query1 = params.get('isShared');
 var GUI =
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([["player"],{
 
@@ -120,7 +122,7 @@ var Player = function Player(_ref) {
     canManageFiles: true,
     canUseCloud: true,
     canShare: true,
-    isShared: query,
+    isShared: query1,
     canEditTitle: true,
     enableCommunity: true,
     isPlayerOnly: isPlayerOnly,
