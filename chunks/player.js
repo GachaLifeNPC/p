@@ -16,7 +16,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, ".player_stage-only_3WHZN {\n    width: 480px;\n}\n\n.player_editor_wkTja {\n    position: absolute;\n    top: 0;\n    left: 0;\n    height: 100%;\n    width: 100%;\n}\n\n.player_stage-only_3WHZN * {\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n}\n", ""]);
+exports.push([module.i, ".player_stage-only_3WHZN {\n    width: calc(480px + 1rem);\n}\n\n.player_editor_wkTja {\n    position: absolute;\n    top: 0;\n    left: 0;\n    height: 100%;\n    width: 100%;\n}\n\n.player_stage-only_3WHZN * {\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -158,10 +158,23 @@ var WrappedPlayer = Object(redux__WEBPACK_IMPORTED_MODULE_5__["compose"])(_lib_a
 var appTarget = document.createElement('div');
 document.body.appendChild(appTarget);
 react_dom__WEBPACK_IMPORTED_MODULE_3___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(WrappedPlayer, {
-  isPlayerOnly: true,
+  isPlayerOnly: true
 }), appTarget);
+
+/***/ }),
+
+/***/ 14:
+/*!****************************************************************************************************!*\
+  !*** multi (webpack)-dev-server/client?http://scratch.codingfirst.org ./src/playground/player.jsx ***!
+  \****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! /home/codingfi/public_html/codingfirst.org/xiaogan/scratch-gui/node_modules/webpack-dev-server/client/index.js?http://scratch.codingfirst.org */"./node_modules/webpack-dev-server/client/index.js?http://scratch.codingfirst.org");
+module.exports = __webpack_require__(/*! ./src/playground/player.jsx */"./src/playground/player.jsx");
+
 
 /***/ })
 
-},[["./src/playground/player.jsx","lib.min"]]]);
+},[[14,"lib.min"]]]);
 //# sourceMappingURL=player.js.map
