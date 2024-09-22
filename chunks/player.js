@@ -1,3 +1,6 @@
+const url = new URL(window.location.href);
+const params = new URLSearchParams(url.search);
+const query = params.get('isShared');
 var GUI =
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([["player"],{
 
@@ -118,6 +121,7 @@ var Player = function Player(_ref) {
     canManageFiles: true,
     canUseCloud: true,
     canShare: true,
+    isShared: query,
     canEditTitle: true,
     enableCommunity: true,
     isPlayerOnly: isPlayerOnly,
@@ -154,7 +158,6 @@ var appTarget = document.createElement('div');
 document.body.appendChild(appTarget);
 react_dom__WEBPACK_IMPORTED_MODULE_3___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(WrappedPlayer, {
   isPlayerOnly: true,
-  isShared: true
 }), appTarget);
 
 /***/ })
