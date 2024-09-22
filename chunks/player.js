@@ -1,5 +1,3 @@
-const url = new URL(window.location.href);
-const params = new URLSearchParams(url.search);
 const query = params.get('isShared');
 var GUI =
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([["player"],{
