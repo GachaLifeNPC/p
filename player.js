@@ -1,6 +1,3 @@
-const url1 = new URL(window.location.href);
-const params1 = new URLSearchParams(url.search);
-const query1 = params.get('isShared');
 var GUI =
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([["player"],{
 
@@ -110,19 +107,6 @@ var Player = function Player(_ref) {
   }, isPlayerOnly && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("button", {
     onClick: onSeeInside
   }, 'See inside'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_containers_gui_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    showComingSoon: true,
-    canCreateNew: false,
-    canCreateCopy: false,
-    isCreating: false,
-    loading: false,
-    backpackVisible: true,
-    canSave: false,
-    canRemix: false,
-    canChangeLanguage: false,
-    canManageFiles: true,
-    canUseCloud: true,
-    canShare: true,
-    isShared: query1,
     canEditTitle: true,
     enableCommunity: true,
     isPlayerOnly: isPlayerOnly,
@@ -164,17 +148,16 @@ react_dom__WEBPACK_IMPORTED_MODULE_3___default.a.render( /*#__PURE__*/react__WEB
 /***/ }),
 
 /***/ 14:
-/*!****************************************************************************************************!*\
-  !*** multi (webpack)-dev-server/client?http://scratch.codingfirst.org ./src/playground/player.jsx ***!
-  \****************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** multi (webpack)-dev-server/client?http://0.0.0.0:8601 ./src/playground/player.jsx ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/codingfi/public_html/codingfirst.org/xiaogan/scratch-gui/node_modules/webpack-dev-server/client/index.js?http://scratch.codingfirst.org */"./node_modules/webpack-dev-server/client/index.js?http://scratch.codingfirst.org");
+__webpack_require__(/*! /root/scratch-gui/node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:8601 */"./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:8601");
 module.exports = __webpack_require__(/*! ./src/playground/player.jsx */"./src/playground/player.jsx");
 
 
 /***/ })
 
-},[[14,"lib.min"]]]);
-//# sourceMappingURL=player.js.map
+},[[14,"lib.min"]]])
